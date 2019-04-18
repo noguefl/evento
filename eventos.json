@@ -1,0 +1,194 @@
+{
+    "tipo": "Eventos",
+    "cidade": "São Carlos",
+    "ano": "2019",
+    "estado": "São Paulo",
+    "active": true,
+    "eventos": [
+
+        {
+            "numero_evento": "1",
+            "nome_evento": "Aerosmith",
+            "imagem_evento": "aerosmith",
+            "tipo": "PAGO",
+            "valor": "100.00",
+            "adicional": [
+                "2019-05-11",
+                "19:00:00",
+                "Centro - Milton Olaio Filho",
+                "Show"
+            ],
+
+            "descricao_evento": "<p><em>Agora é oficial! A Mercury Concerts acaba de confirmar a turnê do Aerosmith no Brasil. A Rock n' Roll Rumble - Aerosmith Style 2019 vai passar por três cidades no mês de Maio, e os shows vão acontecer nas cidades de São Carlos (Milton Olaio), no dia 11 de Maio; em São Paulo (Allianz Parque), no dia 18 de Maio; e Recife (Classic Hall), no dia 25 de Maio.</em> </p><p><em>Com mais de quarenta anos de carreira, Steven Tyler e sua trupe colecionam mais de 150 milhões de cópias de discos vendidas no mundo inteiro. Discos como Rocks, Pump e Get A Grip fazem parte de uma seleta lista de álbuns marcantes para o hard rock. A banda vem ao Brasil pela pela sexta vez e deve relembrar hinos de várias gerações, entre eles: Walk This Way, Cryin, Love In An Elevator e Eat The Rich.</em></p><p> <em>A última passagem do Aerosmith pelo Brasil foi em 2013.</em></p> <p><em>De acordo com a produtora responsável da turnê, os ingressos para os três shows estarão disponíveis em breve.</em></p>"
+        },
+        {
+            "numero_evento": "2",
+            "nome_evento": "Skank",
+            "imagem_evento": "skank",
+            "tipo": "GRATUITO",
+            "valor": "0.00",
+            "adicional": [
+                "2019-04-27",
+                "20:00:00",
+                "Ceat - Milton Olaio Filho",
+                "Musica"
+            ],
+            "descricao_evento": "<p><em>Uma das bandas mais importantes do cenário nacional, o Skank está na estrada e segue percorrendo todo o Brasil com a turnê de seu mais recente projeto Os Três Primeiros – Ao Vivo, apresentado por Cartão Elo e com realização da Live Nation.</em></p><p><em> O show celebra a sólida carreira e traz no repertório sucessos dos três primeiros álbuns da banda e algumas das músicas mais representativas do Skank nesse período. Entre as canções que farão parte do show, estão: Tanto, Jackie Tequila, Partida de Futebol, Garota Nacional, Tão Seu, Pacato Cidadão, O Homem que Sabia Demais, Baixada News, Sem Terra, Eu Disse a Ela e Te Ver. A tour, que já tem datas confirmadas no Nordeste, agora já tem os primeiros shows agendados no Sudeste: São Paulo, no Milton Olaio Filho, dia 27 de Abril; e Rio de Janeiro; dia 08 de junho, no Vivo Rio. </em></p><p><em> Em breve mais cidades serão anunciadas</em></p>."
+        },
+        {
+            "numero_evento": "3",
+            "nome_evento": "U2",
+            "imagem_evento": "u2",
+            "tipo": "PAGO",
+            "valor": "250.00",
+            "adicional": [
+                "2019-04-21",
+                "21:00:00",
+                "Centro - Milton Olaio Filho",
+                "Show"
+            ],	
+            "descricao_evento": "<p><em>Na estrada desde maio de 2018, a turnê comemorativa dos 30 anos do álbum The Joshua Tree, da banda irlandesa U2, chega ao Brasil no próximo domingo 21 de Abril para quatro apresentações, iniciando por São Carlos/SP no OASIS.</em></p>"	
+        }, {
+            "numero_evento": "4",
+            "nome_evento": "Capital Inicial",
+            "imagem_evento": "capital",
+            "tipo": "PAGO",
+            "valor": "140.00",
+            "adicional": [
+                "2019-04-27",
+                "23:00:00",
+                "Jardim Bandeirantes - Oásis",
+                "Musica"
+            ],
+
+            "descricao_evento": "<p><em>A banda de rock Capital Inicial se apresenta em São Carlos no dia 27 de Abril.</p><p> A apresentação, que acontece na Oasis Eventos, terá início às 22h e já está com ingressos à venda pelo site JLTickets. O show faz parte da Turnê Sonora e também contará com hits marcantes da banda formada em Brasília.</em></p>"			
+        }, {
+            "numero_evento": "5",
+            "nome_evento": "Ira",
+            "imagem_evento": "ira",
+            "tipo": "GRATUITO",
+            "valor": "0.00",
+            "adicional": [
+                "2019-06-29",
+                "23:00:00",
+                "Centro - Milton Olaio Filho",
+                "Musica"
+            ],
+
+            "descricao_evento": "<p><em>Há três anos em viagem pelo país unindo apenas voz e violão, Nasi e Edgard Scandurra desembarcam dia 19 de Junho em São Carlos, no Ginásio Milton Olaio Filho, com o show Ira! Folk.</p><p> O espetáculo traz um repertório privilegiando as baladas da banda que antes ficavam de fora dos shows de rock apresentado nos anos 1980 e 2000, antes da separação da dupla.<p> </p>Com um lado mais romântico e lírico, o show levou os dois integrantes a palcos não visitados por eles nas épocas de rock do antigo Ira!, os teatros.</em></p>"	
+        },
+
+        {
+            "numero_evento": "6",
+            "nome_evento": "Santander Track&Field Run Series - Iguatemi São Carlos",
+            "imagem_evento": "corrida",
+            "tipo": "GRATUITO",
+            "valor": "0.00",
+            "adicional": [
+                "2019-04-28",
+                "8:00:00",
+                "Passeio dos Flamboyants, 200 - Parque Faber Castell II, São Carlos - SP, 13561-352",
+                "Esporte"
+            ],
+
+            "descricao_evento": "<p><em>O Santander Track&Field Run Series é o maior circuito de corridas de rua da América Latina. O circuito conta com um diferencial que é o número limitado de corredores por etapa, visando a segurança dos participantes e um percurso adequado para aqueles que buscam melhorar sua performance ou se iniciar no mundo da corrida. São mais de 80 etapas em 20 estados, espalhadas por mais de 40 cidades. No dia 28 de abril, São Carlos receberá a etapa do Santander Track&Field Run Series. A inscrição na prova dá direito a um kit exclusivo TF Sports. *As vendas das inscrições podem ser realizadas na loja que recebe a etapa, sem a incidência de Taxa de Comodidade</em></p>"			
+        },
+
+        {
+            "numero_evento": "7",
+            "nome_evento": "BeerTrip Festival 2019",
+            "imagem_evento": "ber",
+            "tipo": "PAGO",
+            "valor": "170.00",
+            "adicional": [
+                "2019-05-25",
+                "19:00:00",
+                "Oasis Eventos OASIS Eventos - Rodovia Washington Luiz, km 241,5 (Saída 240)São Carlos, São Paulo ",
+                "Festival"
+            ],
+
+            "descricao_evento":"<p><em>O BeerTrip Festival é um projeto criado para desenvolver e propagar a cultura cervejeira no interior de São Paulo.                  Realizado em São Carlos,           região central do estado, é destinado a apaixonados e interessados em conhecer e degustar o que há de melhor no universo das cervejas de qualidade.                   A programação inclui palestras gratuitas,           gastronomia harmonizada,           atrações musicais,           área para exposição de negócios cervejeiros,           concurso para cervejeiros caseiros,           pontos de hidratação,           além de diversas ações que buscam incentivar o consumo consciente, valorizando produtos e produtores locais, levantando a bandeira: “Beba Menos,           Beba Melhor”. </em> </p>"			
+        },
+        
+        {
+            "numero_evento": "8",
+            "nome_evento": "DevConf 2019",
+            "imagem_evento": "congresso",
+            "tipo": "GRATUITO",
+			"valor": "00.00",
+            "adicional": [
+                "2019-04-27",
+                "08:00:00",
+                "Avenida Trabalhador São Carlense, 400, CentroSão Carlos, SP ",
+                "Congresso"
+            ],
+	
+            "descricao_evento": "<p><em> Acreditamos que o conhecimento é livre, e essa crença nos inspirou a organizar o DevConf! <p>O DevConf é um evento de tecnologia sem fins lucrativos organizado pelo Opensanca, a maior comunidade ativa de tecnologia do interior de São Paulo. </p><p>A proposta desta edição do evento é colocar em discussão temas atuais de tecnologia e desenvolvimento de software.</p><p>Iremos promover apresentações com alto nível de conhecimento e relevância e, estimular a troca de experiência e network entre a comunidade de tecnologia do interior, que é caipira mas ama e se move por tecnologia! </p><p>O evento irá acontecer no dia 04 de Maio no ICMC da USP São Carlos.</em></p>"			
+        },
+        {
+            "numero_evento": "9",
+            "nome_evento": "Festival do Chocolate em São Carlos",
+            "imagem_evento": "chocolateholambra",
+            "tipo": "GRATUITO",
+			"valor": "00.00",
+            "adicional": [
+                "2019-05-20",
+                "08:00:00",
+                "Centreville,São Carlos, SP ",
+                "Festival"
+            ],
+	
+            "descricao_evento": "<p><em>Um feriado pra lá de saboroso na cidade das flores 🌻🌻Dias 20 e 21 de abril na Praça do Moinho o perfume do chocolate estará presente em suas mais variadas formas e nuâncias Bolos, brigadeiros, churros, sorvetes, foundue etc…etc…etc… Festival do Chocolate em Holambra – Shows – Praça de Alimentação Completa ( Festival Gordices de Minas ) – Cerveja Artesanal – Espaço Kids – Pet Friendly </em></p>"			
+        },
+		
+		{
+            "numero_evento": "10",
+            "nome_evento": "Se Essa Rua Fosse Minha - Espetáculo de Brincar",
+            "imagem_evento": "teatro2",
+            "tipo": "PAGO",
+			"valor": "40.00",
+            "adicional": [
+                "2019-05-04",
+                "08:00:00",
+                "Avenida Trabalhador São Carlense, 400, CentroSão Carlos, SP ",
+                "Teatro"
+            ],
+	
+            "descricao_evento": "<p><em>  Extraído do folclore infantil, a peça Se Essa Rua Fosse Minha - Espetáculo de Brincar traz “Teresinha de Jesus”, “Pai Francisco” e “Alecrim Dourado” como personagens “brincantes” de diferentes origens, que se reúnem na rua onde moram para brincar.Em sua brincadeira os amigos refletem sobre a vida e sobre a experiência única que é crescer. A peça é totalmente interativa, convidando os espectadores a ‘viver este brincar’ junto aos atores em brincadeiras folclóricas que fazem ou fizeram parte do universo infantil brasileiro. Com Palco Produções.    O espetáculo recebeu o Prêmio Pontinhos de Cultura (por 2 vezes consecutivas) e Prêmio Valores do Brasil. Indicado ao Prêmio Brasil Criativo 2014    Em 2018, ganhou o prêmio Catálogo de Bolonha, representando o Brasil na maior feira de literatura infanto-juvenil do mundo. O livro com texto do espetáculo foi selecionado para a PNLD Literária 2018   </em></p>"			
+        },
+		
+		{
+            "numero_evento": "11",
+            "nome_evento": "Exposição “Tarsila Popular”",
+            "imagem_evento": "exposicao",
+            "tipo": "GRATUITO",
+			"valor": "00.00",
+            "adicional": [
+                "2019-05-05",
+                "08:00:00",
+                "Avenida Trabalhador São Carlense, 400, CentroSão Carlos, SP ",
+                "Arte"
+            ],
+	
+            "descricao_evento": "<p><em>A partir de 5 de abril o Museu de Arte recebe a exposição “Tarsila popular”, reunindo cerca de 120 obras da artista, entre pinturas e desenhos das três principais fases de sua carreira: “Pau-Brasil”, “Antropofágico” e “Social”.Figura central do modernismo brasileiro, Tarsila do Amaral (1886-1973) estudou as técnicas acadêmicas tradicionais na Europa, onde conviveu com pintores como André Lhote (1885-1962) e Fernand Léger (1881-1955). Mas foi no seu retorno ao Brasil, em 1922, que a artista passou a seguir as ideias vanguardistas europeias na sua forma de representar o país. Nesta mesma época ela foi apresentada por Anita Malfatti ao poeta e pintor Menotti del Picchia (1892-1988), ao escritor Mário de Andrade (1893-1945) e ao futuro marido Oswald de Andrade (1890-1954), formando com eles o Grupo dos Cinco.Voltando-se para personagens, temas e narrativas ligados ao popular brasileiro, ela reproduziu em seus trabalhos cenas de Carnaval, favelas, feiras ao ar livre, a religiosidade e as lendas indígenas - caso das obras “A cuca” (1924), “Abaporu” (1928) e “Batizado de Macunaíma” (1956).Imperdível: Além do clássico “Abaporu”, que atualmente faz parte do acervo do Museu de arte latino-americana de Buenos Aires (MALBA), outra grande estrela da mostra é a pintura “Um pescador” (1925), exposta pela primeira vez no Brasil e parte do acervo do museu Hermitage, na Rússia.Curiosidade: A obra “Abaporu”, cujo nome de origem indígena significa “homem que come carne humana—tipo de ritual praticado por algumas tribos brasileiras, inspirou o Manifesto Antropófago, de Oswald de Andrade, que propunha a apropriação e deglutição, pela cultura nacional, do legado cultural europeu, para devolvê-lo ao mundo sob a forma de uma produção cultural própria, brasileira.    A abertura de Tarsila popular integra o ciclo “Histórias das mulheres, histórias feministas”, que guiará a programação da instituição ao longo de 2019.    </em></p>"			
+        },
+		
+		
+		{
+            "numero_evento": "12",
+            "nome_evento": "Milton Nascimento Turnê Clube da Esquina Show Extra",
+            "imagem_evento": "milton",
+            "tipo": "PAGO",
+			"valor": "200.00",
+            "adicional": [
+                "2019-04-27",
+                "18:00:00",
+                "Chácara Flores, 400, Centro São Carlos, SP",
+                
+                "Show"
+            ],
+	
+            "descricao_evento": "<p><em>  Ingressos: Setor Platinum: R$ 380,00 (inteira) e R$ 190,00 (meia) | Setor Azul Premium: R$ 300.00 (inteira) e R$ 150,00 (meia) | Setor Azul: R$ 260,00 (inteira) e R$ 130,00 (meia) | Setor A,B,c e D: R$ 220,00 (inteira) e R$ 110,00 (meia) | Setor E,F, G, H e PCD: R$ 140,00 (inteira) e R$ 70,00 (meia)Compras de ingressos: Nas bilheterias do Espaço das Américas (de segunda a sábado das 10h às 19h – sem taxa de conveniência ) ou Online pelo site Ticket 360Formas de Pagamento: Dinheiro, Cartões de Credito e Debito, Visa, Visa Electron, MasterCard, Diners Club, Rede Shop. Cheques não são aceitos.Objetos proibidos: Câmera fotográfica profissional ou semi profissional (câmeras grandes com zoom externo ou que trocam de lente), filmadoras de vídeo, gravadores de audio, canetas laser, qualquer tipo de tripé, pau de selfie, camisas de time, correntes e cinturões, garrafas plásticas, bebidas alcóolicas, substâncias tóxicas, fogos de artifício, inflamáveis em geral, objetos que possam causar ferimentos, armas de fogo, armas brancas, copos de vidro e vidros em geral, frutas inteiras, latas de alumínio, guarda-chuva, jornais, revistas, bandeiras e faixas, capacetes de motos e similares.  </em></p>"			
+        }
+    ]
+}
