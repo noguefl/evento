@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>:: Mapa do Site ::</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/set1.css" />
+        <link href="css/overwrite.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <script type="text/javascript">
+
+
+            var tamanhotexto = new Number();
+
+            var tamanhotexto = 18;
+
+
+            window.onload = function () {
+
+                // alert(tamanhotexto);
+            }
+
+            function tamanhooriginal() {
+                document.getElementById("conteudo").style.fontSize = tamanhotexto + 'px';
+                //   alert(tamanhotexto);
+            }
+
+            function fonte(e) {
+                var elemento = document.getElementById("conteudo");
+
+
+                var atual = elemento.style.fontSize;
+
+                //  alert(atual);
+
+                if (e == 'a') {
+                    atual = parseInt(atual) + 2 + 'px';
+                    //   alert(e);
+                    elemento.style.fontSize = atual;
+                    $('em').css('fontSize', atual);
+                    $('p').css('fontSize', atual);
+                } else if (e == 'd') {
+                    atual = parseInt(atual) - 2 + 'px';
+                    elemento.style.fontSize = atual;
+                    $('p').css('fontSize', atual);
+                    $('em').css('fontSize', atual);
+                } else if (e == 'n') {
+                    atual = 18 + 'px';
+                    elemento.style.fontSize = atual;
+                    $('p').css('fontSize', atual);
+                    $('em').css('fontSize', atual);
+                }
+
+
+
+            }
+
+
+            var controle = 1;
+            function mudaEstilo() {
+                //var objDiv = document.getElementsByTagName("em");
+                if (controle == '1') {
+                    controle++;
+
+                    $('em').css('background-color', '#ff8080');
+                    $('em').css('color', '#black');
+                    $('p').css('background-color', '#ff8080');
+                    $('p').css('color', '#black');
+
+                    //     objDiv.style.color = "black";
+                    //   objDiv.style.background = "#ff8080";
+                } else if (controle == '2') {
+                    controle++;
+                    $('em').css('background-color', '#b3ffb3');
+                    $('em').css('color', '#black');
+                    $('p').css('background-color', '#b3ffb3');
+                    $('p').css('color', '#black')
+                    //   objDiv.style.color = "black";
+                    // objDiv.style.background = "#b3ffb3";
+                } else if (controle == '3') {
+                    controle++;
+
+                    $('em').css('background-color', '#b3b3b3');
+                    $('em').css('color', '#black');
+                    $('p').css('background-color', '#b3b3b3');
+                    $('p').css('color', '#black');
+                    // objDiv.style.color = "black";
+                    //  objDiv.style.background = "#b3b3b3";
+                } else {
+                    controle = 1;
+
+                    $('em').css('background-color', 'white');
+                    $('em').css('color', '#black');
+                    $('p').css('background-color', 'white');
+                    $('p').css('color', '#black');
+                    // objDiv.style.color = "black";
+                    //  objDiv.style.background = "white";
+                }
+
+
+            }
+
+
+
+        </script>
+
+    </head>
+
+    <body onload="tamanhooriginal();">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background: linear-gradient(to right, #0066ff 0%, #660033 100%);">
+            <div class="container" >
+
+                <div class="navbar-header">
+
+
+
+                         <a href="index.html">  <img src="img/logo.png" alt="Logo do Site Eventos"/></a>
+                    <img style="padding: 10px;margin: 5px;margin-left: 200px;" alt="Aumentar a Fonte" src="img/A.png" onclick="fonte('a')" title="Aumentar a fonte"/>
+                    <img style="padding: 2px;margin: 10px;" src="img/A_fonte.png" alt="Voltar a fonte ao normal" onclick="fonte('n');" title="Fonte Normal" />
+                    <img style="padding: 2px;margin: 10px;" src="img/A-.png" onclick="fonte('d');" alt="Dimuir a fonte" title="Diminuir a fonte"/>
+                    <img style="padding: 2px;margin: 10px;width: 30px;height: 30px; " src="img/daltonico_desativado.png" alt="Mudar o contraste de fundo" onclick="mudaEstilo();" onmouseover="this.src = 'img/daltonico_ativado.png'" title="Mudar tema para daltônicos (varias cores). Para monocormatismo, passe o mouse sobre os textos destacados." onmouseout="this.src = 'img/daltonico_desativado.png'"/>
+                </div>
+                <div  class="navbar-collapse collapse">
+
+
+
+
+                    <ul class="nav nav-tabs"  role="tablist">
+
+
+
+                        <li role="presentation" ><a href="index.html">Home</a></li>
+                        <li role="presentation"><a href="contato.html">Contato</a></li>
+                        <!-- <li role="presentation"><a href="#.html">Login</a></li>-->
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <br/>    <br/> <br/><br/>
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Sobre</li>
+                    </ol>
+                </nav>
+
+
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+             
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="text-center">
+                            <div id="conteudo">
+                                <h2><em>Serviços ofertados pelo Site</em></h2>
+                                <p>Escolha o que você procura para melhor atendimento da sua necessidade da sua busca<br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+           
+        </div>
+
+        <div class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+                            <h4>Salvar</h4>
+                            <div class="icon">
+                                <i class="fa fa-heart-o fa-3x"></i>
+                            </div>
+                            <p>Faça o login no site e gerencia seus eventos salvos</p>
+                            <div class="ficon">
+                                <a href="#" class="btn btn-default" role="button">Login</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+                            <h4>Múltipla Plataforma</h4>
+                            <div class="icon">
+                                <i class="fa fa-desktop fa-3x"></i>
+                            </div>
+                            <p>Responsivel para o tamanho do seu dispositivo  </p>
+                            <div class="ficon">
+                                <a href="#" class="btn btn-default" role="button">Veja em seu dispositivo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+                            <h4>Fácil Busca</h4>
+                            <div class="icon">
+                                <i class="fa fa-location-arrow fa-3x"></i>
+                            </div>
+                            <p>Busque eventos com poucos cliques e todos os descritivos do evento</p>
+                            <div class="ficon">
+                                <a href="index.html" class="btn btn-default" role="button">Procure por Eventos</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="2.2s">
+                            <h4>Suporte Rápido</h4>
+                            <div class="icon">
+                                <i class="fa fa-laptop fa-3x"></i>
+                            </div>
+                            <p>Nosso suporte esta disponivel 24 horas 7 dias da Semana </p>
+                            <div class="ficon">
+                                <a href="contato.html" class="btn btn-default" role="button">Mande uma mensagem</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+            <div class="inner-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 f-about">
+                            <div id="conteudo">  <a href="index.html"><h1><span></span><em> Eventos</em></h1></a>
+                                <p><em>Curta nossa página e veja tudo sobre os eventos da cidade de São Carlos.Varios tipos de atrações para você e sua familia
+                                    </em></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 l-posts">
+                            <h3 class="widgetheading"> Últimas Postagens</h3>
+                            <ul>
+                                <li><a href="#">Shows de Musica</a></li>
+                                <li><a href="#">Atrações do Mês</a></li>
+                                <li><a href="#">Atrações para o dia a dia</a></li>
+                                <li><a href="#">Vida na noite </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 f-contact">
+                            <h3 class="widgetheading">Manter contato</h3>
+                            <a href="#">
+                                <p><i class="fa fa-envelope"></i> evento@evento.com</p>
+                            </a>
+                            <p><i class="fa fa-phone"></i> +99 99 99 99 96</p>
+                            <p><i class="fa fa-home"></i> Eventos S.A. | Box 5555 Av. Paulista, São Paulo <br> Brasil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last-div" style="background: linear-gradient(to right, #0066ff 0%, #660033 100%);">
+
+                <div class="container">
+
+                    <div class="social-network">
+                        <div class="col-md-1 " style="margin-left:0px;">
+                            <a href="index.html">  <img src="img/logo.png" alt="Logo do Site Eventos"/></a>
+                        </div>
+                    </div>
+
+                    <div class="social-network">
+                        <div class=""  style="margin-left: 250px;">
+                            <a href="index.html"><i class="fa fa-home"></i><b>HOME</b></a><br/>
+                            <a href="mapa.html"><i class="fa fa-sitemap"></i><b>MAPA DO SITE</b></a><br/>
+                            <a href="sobre.html"><i class="fa fa-user"></i><b>SOBRE NÓS</b></a><br/>
+                            <a href="contato.html"><i class="fa fa-phone"></i><b>FALE CONOSCO</b></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" >
+                    <div class="row" >
+                        <ul class="social-network" >
+                            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Instram"><i class="fa fa-instagram fa-1x"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>                            
+                            <li><a href="#" data-placement="top" title="YouTube"><i class="fa fa-youtube fa-1x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+            </div>
+
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+        <script src="js/functions.js"></script>
+        <script type="text/javascript">
+                        $('.portfolio').flipLightBox()
+        </script>
+
+    </body>
+
+</html>
